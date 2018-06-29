@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit, OnDestroy {
+export class HomeComponent implements OnInit {
   numbersObsSubscription: Subscription;
   customObsSubscription: Subscription;
 
